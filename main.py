@@ -11,6 +11,7 @@ school_bus = Bus("School Volvo", 80, 20)
 fare_per_km = 10
 distance = float(input("Enter distance in km: "))
 total_fare = distance * fare_per_km
+
 print("Vehicle Name:", school_bus.name)
 print("Speed:", school_bus.max_speed)
 print("Mileage:", school_bus.mileage)
